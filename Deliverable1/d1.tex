@@ -1,0 +1,162 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{biblatex}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+%     citecolor=black,
+    % filecolor=black
+    linkcolor=blue,
+%     urlcolor=black
+}
+
+\addbibresource{sample.bib}
+
+
+
+
+\title{
+Using Random Fourier Features with \\ Random Forests \\
+\large Deliverable 1: Context and scope of the project}
+\author{Albert Ribes Marzá}
+
+\begin{document}
+    \maketitle
+    \pagebreak
+
+    \tableofcontents
+    \pagebreak
+
+    \section{Project Formulation}
+
+
+    Random Forest is a very powerful ensemble learning method than can be used both for classification and regression. It is based on building a group of Decision Trees (a forest) and output the prediction of the majority of them, and it corrects the problem of Decision Trees of over-fitting on the data\cite{RF}.
+
+    The performance of this method can be very high, and it is a very commonly chosen methods for the following reasons\cite{RF-MIT}:
+
+    \begin{itemize}
+        \item It has a hight execution speed
+        \item It doesn't over-fit on the data by increasing the amount of trees in the forest
+        \item It can handle huge amounts of data
+        \item It can achieve very hight accuracy
+        \item It generates an estimate of the generalization error
+    \end{itemize}
+
+    However, in order to generalize on unseen data, the correlation between any two trees in the forest need to be very low. For this reason, it is needed a randomized sampling method to train each tree in a different way. At the same time, each of the trees should have a low error rate, so having a good sampling method is important.
+
+    Many methods have been proposed, but most of them are based on hiding part of the data to the Decision Trees, and hence it affects on the performance of each individual one.
+
+    I propose a different approach to lower the correlation among the trees in the forest. Instead of feeding them with the features of the original dataset, I suggest to map them to a randomized low-dimensional feature space, allowing the trees to use different mappings on the same data. This transformation is based on Random Fourier Features and it has been verified that it approximates various radial basis kernels\cite{RFF}.
+
+    This approach has already been done with Deep Neural Networks\cite{RFF-NN} and has showed to be very effective, but it still haven't been studied on Random Forests. That's what I will study in this project.
+
+
+    % Many methods can be used to solve classification and regression problems. Among them, one popular option is the Random Forest, which is based on training a lot a Decision Trees for the same problem and make them vote to make an answer with the majority of the votes. They are a good technique because of the following reasons:
+    % \begin{itemize}
+    %     \item They have an excellent accuracy compared to other algorithms
+    %     \item It can handle huge amounts of data
+    %     \item It doesn't over-fit by increasing the amount of tree
+    %     \item It has a very fast training
+    %     \item It generates an estimate of the generalization error
+    % \end{itemize}
+    %
+    % But in order to have good results, it is needed for Random Forest for each tree to be fed with data with very few correlation, and at the same time, each tree needs to be have a low error rate.
+    %
+    % There are many techniques to achieve that. I propose a technique based on extracting Random Fourier Features from the data and use them to train the forest instead of the original data. As it is a pseudo-random space, it will help the trees to have low-correlated data, and as it is a quite good approximation of a kernel function, a good performance of each tree is expected.
+    %
+    % In this project, I will try to use the idea of the Random Fourier Features to improve the performance of the Random Forest algorithm. Note that a similar approach has already been done with Neural Networks, showing very good results.
+
+    % In the field of Machine Learning, there exists many techniques to solve classification and regression problems.
+    %
+    % In Machine Learning, there are many mo used to predict a response variable according to
+
+    % \begin{itemize}
+    %     \item Explicar lo que es un random forest
+    %     \item Explicar que es bueno que los datos de los árboles sean distintos
+    %     \item Explicar la técnica de los RFF
+    %     \item Explicar lo que queremos hacer
+    % \end{itemize}
+    \section{Scope}
+
+    The project will focus on training Random Forest with Random Fourier Features for classification problems.
+
+    It will test the algorithm proposed against currently used Random Forests methods to see if it outperforms on accuracy or train time.
+
+    To do so, the problem will first be addressed in the theoretical approach to find out the best way to mix those two techniques.
+
+    Then, I will implement the ideas found in the first section in a programming language. I will use Python 3, since it is a powerful yet flexible language, suitable to work on machine learning and maths. In addition, it will allow me to use the \textit{scikit-learn} tools\cite{scikit-learn}, which contain a module with a Random Forest Classifier. It is a well tested library, and as it uses the 3-Clause BSD License, I will use the source code to build the Random Forest Classifier using Random Fourier Features, so I will not have to do it from scratch.
+
+    Finally, I will test my implementation using public classification problem datasets, together with currently used Random Forest algorithms, in order to find the best tunning parameters and to see if it outperforms the state-of-the-art methods.
+
+    % To evaluate the ideas proposed in the project, I will implement and test them using a suitable public dataset. A classification problem dataset will be used as this is the scope of the project.
+    %
+    % To build the algorithm, I will recycle the code from scikit-learn Python module, since it already has a quite good general Random Forest classifier and is distributed under the 3-Clause BSD License, so I can use the base code and modify it.
+    %
+    % It is very likely that I won't find the Random Fourier Features extraction implemented, so I will have to write them from scratch. I will do that using the Python language.
+    %
+    % With the implementation finished, I will be able to test it in order to learn the best tunning parameters for the algorithm, such as what kernel function to approximate, the dimensionality of the new Features space, the node split conditions, etc.
+
+
+    \section{Possible obstacles and solutions}
+    \subsection{Trouble in modifying the code}
+    The plan is to modify the Random Forest Classifier implementation of the sklearn library to make it work as my algorithm describes. It is possible that it is so complicated to understand that I will not be able to modify it. If this is the case, I can use another equivalent implementation, for instance the one from R, which my project tutor happens to know, so I can receive help from him.
+
+    If the problem persists, I will have to implement the code from scratch.
+
+    \subsection{Computational power}
+
+    The kind of problems the algorithm is expected to tackle are the ones with huge amounts of data to train. Although the training from this data is feasible for research groups with high computational power, I will only be able to use a laptop for the training. It may happen that I can not afford to commit the required time for training the data.
+
+    If this happens, I will make the tests with tinier datasets and hope it to be representative to the real problems.
+
+    % To test the implemented algorithm I will use a general purpose laptop. As today's real world problems are handled with huge amounts of training data, it is possible that the training in this computer lasts for a lot of time, limiting the size of problems I can handle.
+    %
+    % If this happens, I will use a tinier problem and try to generalize to a bigger one.
+
+    \subsection{Find suitable public datasets}
+    I plan to use public datasets to test my algorithm, but it may happen that I am not able to find a dataset with the required characteristics, such as type of problem, number of instances and attributes, etc.
+
+    If this happens, I can create my own dataset with dummy data, as the aim of the project is not tied to a specific domain.
+
+
+
+    \section{Methodology}
+
+    During the realization of the project I will use the Waterfall Project Management methodology. The reason to chose that methodology is that the scope of the project is very well defined, and most of the tasks to do need to follow a sequential order. It is a simple methodology and it fits the requirements of this project.
+
+    I will make a list of all the steps I need to accomplish the deliverable, assign a sequential sorting and decide when each particular task needs to be done. Then, I will start doing them one after the other.
+
+    If it is possible, some of the tasks may overlap in time, as it may be useful to better match the different parts of the project.
+
+    As the methodology is so simple, there are many tools and ways to follow it. The main tools I will use to follow it will be:
+    \begin{itemize}
+        \item \textbf{Trello}: a web based project management application to track the work to do, work in progress and work done.
+        \item \textbf{Google Calendar}: To keep track of the deadlines and be notified on delivery days.
+        \item \textbf{todo notes and todo notes trackers} such as todo-show from Atom text editor, to mark all the pending work.
+    \end{itemize}
+
+    \section{Development tools}
+
+    The realization of the project will require the following development tools:
+
+    \begin{itemize}
+        \item \textbf{Git and Github}: used as a revision control system of the code and to the reports and securely store it in the cloud.
+        \item \textbf{Python Programming Language}: all the code will be writen in this language
+        \item \textbf{Python modules and libraries}: used for advanced maths and machine learning features, such as the Random Forest Classifier class from scykit-learn.
+        \item \textbf{Text editor}: to write and modify the Python code
+        \item \textbf{Testing datasets}: to evaluate the algorithm
+        \item \textbf{A laptop}: for obvious reasons
+    \end{itemize}
+    \section{Validation Methods}
+    As each task will have a pre-fixed deadline, the validation method will consist of checking at a given date if I have finished all the things that needed to be done.
+
+    Each week, at a definite day, I will check the list of things to do and the list of things done, and I will evaluate if the goals have been achieved.
+
+
+
+
+\printbibliography
+
+
+\end{document}

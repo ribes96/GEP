@@ -1,0 +1,9 @@
+[0] Config.pm:354> INFO - This is Biber 2.7 (beta)
+[0] Config.pm:357> INFO - Logfile is 'd2.blg'
+[55] biber:303> INFO - === mar mar 13, 2018, 22:13:26
+[94] Biber.pm:360> INFO - Reading 'd2.bcf'
+[217] Biber.pm:836> INFO - Found 0 citekeys in bib section 0
+[232] Utils.pm:164> WARN - The file 'd2.bcf' does not contain any citations!
+[246] bbl.pm:608> INFO - Writing 'd2.bbl' with encoding 'UTF-8'
+[246] bbl.pm:712> INFO - Output to d2.bbl
+[247] Biber.pm:110> INFO - WARNINGS: 1
