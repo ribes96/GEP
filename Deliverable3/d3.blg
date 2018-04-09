@@ -1,9 +1,9 @@
-[2] Config.pm:354> INFO - This is Biber 2.7 (beta)
-[2] Config.pm:357> INFO - Logfile is 'd3.blg'
-[63] biber:303> INFO - === mié mar 14, 2018, 09:07:43
-[94] Biber.pm:360> INFO - Reading 'd3.bcf'
-[199] Biber.pm:836> INFO - Found 0 citekeys in bib section 0
-[211] Utils.pm:164> WARN - The file 'd3.bcf' does not contain any citations!
-[222] bbl.pm:608> INFO - Writing 'd3.bbl' with encoding 'UTF-8'
-[222] bbl.pm:712> INFO - Output to d3.bbl
-[222] Biber.pm:110> INFO - WARNINGS: 1
+[0] Config.pm:354> INFO - This is Biber 2.7 (beta)
+[0] Config.pm:357> INFO - Logfile is 'd3.blg'
+[43] biber:303> INFO - === lun mar 19, 2018, 16:19:26
+[62] Biber.pm:360> INFO - Reading 'd3.bcf'
+[207] Biber.pm:836> INFO - Found 0 citekeys in bib section 0
+[230] Utils.pm:164> WARN - The file 'd3.bcf' does not contain any citations!
+[246] bbl.pm:608> INFO - Writing 'd3.bbl' with encoding 'UTF-8'
+[246] bbl.pm:712> INFO - Output to d3.bbl
+[246] Biber.pm:110> INFO - WARNINGS: 1

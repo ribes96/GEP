@@ -1,0 +1,69 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Context and scope of the project}{3}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Project formulation}{3}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Scope}{3}{subsection.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3}Possible obstacle and solutions}{4}{subsection.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.1}Trouble in modifying the code}{4}{subsubsection.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.2}Computational power}{4}{subsubsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.3}Find suitable public datasets}{4}{subsubsection.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.4}Methodology}{4}{subsubsection.1.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.5}Development tools}{5}{subsubsection.1.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.3.6}Validation methods}{5}{subsubsection.1.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Project planning}{5}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Plan description}{6}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}Theoretical approach}{6}{subsubsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.2}Algorithm implementation}{7}{subsubsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.3}Testing}{7}{subsubsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Estimated time}{8}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Gantt chart}{9}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Alternatives and action plan}{10}{subsection.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.1}Complexity of the module}{10}{subsubsection.2.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2}Bugs}{10}{subsubsection.2.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Budget and sustainability}{10}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Environmental dimension}{10}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.1}PPP}{10}{subsubsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.2}Useful life}{10}{subsubsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.3}Risks}{10}{subsubsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Economic dimension}{11}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1}Budget}{11}{subsubsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.2}Assessment}{12}{subsubsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Social dimension}{12}{subsection.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.1}PPP}{12}{subsubsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.2}Useful life}{12}{subsubsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.3}Risks}{12}{subsubsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}References}{13}{section.4}

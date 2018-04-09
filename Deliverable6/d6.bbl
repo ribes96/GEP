@@ -1,0 +1,222 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{RF-MIT}{online}{}
+      \name{author}{2}{}{%
+        {{hash=132b7100417675d55d5d4d8b244f7a34}{%
+           family={Breiman},
+           familyi={B\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ea9492aa5759b3542d9fe2f1d62b3412}{%
+           family={Cutler},
+           familyi={C\bibinitperiod},
+           given={Adele},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{915e559f2abbaabdb2638b5e847e5ae8}
+      \strng{fullhash}{915e559f2abbaabdb2638b5e847e5ae8}
+      \strng{authornamehash}{915e559f2abbaabdb2638b5e847e5ae8}
+      \strng{authorfullhash}{915e559f2abbaabdb2638b5e847e5ae8}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Random Forests}
+      \verb{url}
+      \verb https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm
+      \endverb
+      \warn{\item Entry 'RF-MIT' (sample.bib): Invalid format '2018-03-6' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{RF}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e29ac099e82ac42634f954ebaad8d1f2}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Tin\bibnamedelima Kam},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e29ac099e82ac42634f954ebaad8d1f2}
+      \strng{fullhash}{e29ac099e82ac42634f954ebaad8d1f2}
+      \strng{authornamehash}{e29ac099e82ac42634f954ebaad8d1f2}
+      \strng{authorfullhash}{e29ac099e82ac42634f954ebaad8d1f2}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Random Decision Forests}
+      \field{year}{1995}
+    \endentry
+    \entry{RFF-NN}{article}{}
+      \name{author}{3}{}{%
+        {{hash=12aca96b73ab8ec90d7fbfc53dbf1696}{%
+           family={Mehrkanoon},
+           familyi={M\bibinitperiod},
+           given={Siamak},
+           giveni={S\bibinitperiod}}}%
+        {{hash=650741453181162d551d5db838d0856f}{%
+           family={Zell},
+           familyi={Z\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8a41b22ce43ecb8adbdb3e333fa34589}{%
+           family={Suykens},
+           familyi={S\bibinitperiod},
+           given={Johan\bibnamedelima A.K.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ba8cb42da700175efafe3feeb2eb2d4}
+      \strng{fullhash}{8ba8cb42da700175efafe3feeb2eb2d4}
+      \strng{authornamehash}{8ba8cb42da700175efafe3feeb2eb2d4}
+      \strng{authorfullhash}{8ba8cb42da700175efafe3feeb2eb2d4}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Scalable Hybrid Deep Neural Kernel Networks}
+      \field{year}{2017}
+    \endentry
+    \entry{scikit-learn}{article}{}
+      \name{author}{16}{}{%
+        {{hash=22e2e571cc6356b3cb21d40e212ca6ac}{%
+           family={Pedregosa},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=90a0a2720bfe73efd4029f8a456cdcc3}{%
+           family={Varoquaux},
+           familyi={V\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=386dd6e7464b390d92ce58cf04ba101c}{%
+           family={Gramfort},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ce3bf798cb091d3910827d51160fe0f8}{%
+           family={Michel},
+           familyi={M\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=b8fa2de348731073d50b89e07267e159}{%
+           family={Thirion},
+           familyi={T\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1c2f66c39a6e2b2ca4d545348028a677}{%
+           family={Grisel},
+           familyi={G\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=f5652799b846fbd40ce19b83c70ef1d3}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8d2ca4be32fef4d9e848709878fcb757}{%
+           family={Prettenhofer},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=56ac3785f81550a29a28d3abd746ecff}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cb070bdb80f3a6add15c62ca13a4a419}{%
+           family={Dubourg},
+           familyi={D\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f1aa9e81c02f406a26762c8c85fdc1fb}{%
+           family={Vanderplas},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=35a7037441ee9fd7ca45c2216a9cb080}{%
+           family={Passos},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=39b253ebe84b96f6acd07b762d251ca1}{%
+           family={Cournapeau},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3c836162a7c1b02a3454bb2df2c57303}{%
+           family={Brucher},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=980c432be67e1ca5879a0aee315ff2a9}{%
+           family={Perrot},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ad11ee93370bf63bb64684cfdff0836f}{%
+           family={Duchesnay},
+           familyi={D\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f03c9665977d16cca3f7d744a8a06df}
+      \strng{fullhash}{81371d66ce2cfb28d217f955948ace55}
+      \strng{authornamehash}{7f03c9665977d16cca3f7d744a8a06df}
+      \strng{authorfullhash}{81371d66ce2cfb28d217f955948ace55}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{title}{Scikit-learn: Machine Learning in {P}ython}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{2825\bibrangedash 2830}
+      \range{pages}{6}
+    \endentry
+    \entry{RFF}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b2a647ccd84fe455f793167cbe4e9c81}{%
+           family={Rahimi},
+           familyi={R\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3503059e1c0c778913607c87d8c5173a}{%
+           family={Recht},
+           familyi={R\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3901ba1a79fcedc2c5a8b2b74bd94b9a}
+      \strng{fullhash}{3901ba1a79fcedc2c5a8b2b74bd94b9a}
+      \strng{authornamehash}{3901ba1a79fcedc2c5a8b2b74bd94b9a}
+      \strng{authorfullhash}{3901ba1a79fcedc2c5a8b2b74bd94b9a}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Random Features for Large-Scale Kernel Machines}
+      \field{year}{2007}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

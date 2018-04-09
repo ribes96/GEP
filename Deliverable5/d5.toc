@@ -1,0 +1,13 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Description of the objectives of the project}{3}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Summary of the scope of the project}{3}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}What knowledge of the subjects from the specialization do you thing will be useful to develop the project. Justify it}{3}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Justify why the suggested project suits the characteristics of the computing specialization}{3}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}List the technical competences of the project and the level of achievement chosen. Justification on why have each one been chosen and how is it planned to reach that level of achievement.}{3}{section.5}
