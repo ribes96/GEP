@@ -1,0 +1,94 @@
+Context:
+========
+    Machine Learning:
+    ~~~~~~~~~~~~~~~~~
+        Machine learning is a field of computer science that uses statistical techniques to give computer systems the ability to "learn", which (most of the times) in the end means solving a classification or regression problem.
+
+        This is an arduous process, since in order to get quite good predictions you need to use huge amounts of data and perform a very
+        big number of calculations. Besides, you have to assure that the algorithm is really generalizing, so that it can work well with unseen data.
+
+        Support Vector Machines is one of the bests algorithms used nowadays, specially for classification problems. It performs very good predictions using the kernel trick, but it is not scalable, since it can not handle very huge amounts of data, which is becoming a more important issue nowadays.
+
+        A popular alternative to Support Vector Machines is Random Forest. This model is based on the idea of constructing a lot of different binary decision trees, and then make a poll among all of them in order to produce an answer.
+
+    Random Forest:
+    ~~~~~~~~~~~~~~
+
+        This method has a lot of strengths, but it is very important for each of the trees of the forest to be different from the rest, just as a committee needs all of its members to disagree in order to get an unbiased answer. There are many valid methods to get this divergence, but most of them are based on hiding part of information during the construction of the trees (normally a randomized subset of the data).
+
+        In this project, I study a different approach to achieve this divergence, which could increase the accuracy of the predictions of Random Forest without affecting too much the training speed. This approach will use the ideas of Ali Rahimi and Benjamin Recht about Random Fourier Features.
+
+    Random Fourier Features:
+    ~~~~~~~~~~~~~~~~~~~~~~~~
+
+        Random Fourier Features is a technique which generates new features from the data. These new features come from a mapping to a randomized low-dimensional feature space whose inner products approximate a shift-invariant kernel using a Fourier function.
+
+        A similar approach has been taken with Deep Neural Networks, showing very good results, but it has still not been used with Random Forest. That's what I will study in this project.
+
+
+Scope:
+======
+
+        More specifically, I will study three possible methods of using the ideas about Random Fourier Features with the Random Forest algorithm.
+
+        The first one consists in using exactly the classical Random Forest algorithm without any modification, but instead of using the original dataset, using another one which is a pseudo-random mapping of the first one.
+
+        Another method consists in training each of the trees of the forest with a different dataset, all of them being a different pseudo-random mapping of the original dataset.
+
+        The final method that I will study is to perform a pseudo-random mapping in each of the nodes of each of the trees in the forest.
+
+        Perhaps the first method is too much simple, while the third one is also too hardcore, so I have my hope in this second method, which seems the most logical one and also the one that could get better accuracy.
+
+        So, the scope of the project is study these three approaches to the mixing of Random Forest with the Random Fourier Features. I will implement them using the Python programming language and then I will test them against other popular methods such as the Original Random Forest or Support Vector Machines in order to check  if it outperforms them.
+
+Planning:
+=========
+
+        So, given the scope, the planning of the project is pretty straightforward. All the tasks can be grouped in one of these three main topics.
+
+    Theoretical Approach:
+    ~~~~~~~~~~~~~~~~~~~~~
+
+        Before anything else, it is needed a step to formalize all the core ideas of the project, as well as to answer many of the questions that will guide the rest of the project.
+
+
+    Algorithm Implementation:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+        After that step, it will come the implementation of the three approaches previously mentioned. I have to say that for the Random Forest algorithm I will reuse the one from the scikit learn library, which is Open Source, so I will just need to modify it.
+
+    Testing:
+    ~~~~~~~~
+
+        Finally, it comes the the testing part, the one which will verify if this new model perform well. I will try to solve some classification problems with many algorithms, including the one I am describing, to see how it performs compared to them.
+
+
+
+
+        In this whole process there is a chance for a minimal cycling process. For example, after having performed the tests, maybe I can chose to make some changes to the implementation, or maybe during the coding process I decide to study again some topics with a different perspective. But in general, the whole process is very linear, so there is a predefined workflow, staking one task after the other, just like this chart is showing.
+
+Budget:
+=======
+
+        Given that this is a purely research project and that it does not have any special needs, it has very few costs. Besides all the software used during the development of the project is free, so these are the only costs to the project.
+
+        The biggest part is the labour cost. I've have estimated that it will require about 240 hours of work in the roles of an expert in Machine Learning, a programmer and a tester.
+
+        As the chosen workspace to develop the project are the installations of the FIB, I will have to travel everyday, so this is the expected outlay.
+
+        Finally, as I will use my personal laptop, this is the depreciation I've calculated.
+
+        So the total costs of the project add up to 7375.6 €.
+
+Sustainability:
+===============
+
+        Regarding the sustainability of the project, it is important to take into account that this is a research project. The profits of the research are not always so tangible as in other fields, and sometimes you have to wait for a long time in order to see the results.
+
+        In a social perspective, this project will contribute to advance the state of the art. In the case that this new implementation does not perform better that other algorithms, it will still serve to avoid other researchers to study the same subject, and it will also inspire them to study related fields.
+
+        If it does outperform, it will bring the scientific community a new tool to help progress the knowledge and also to develop better learning products for the community.
+
+        As it usually happens with research, economically speaking this is a kind of a bet: you don't always know what will be the consequences of the field you are studying, but you can expect that more or less directly it will economically help. In this particular project, given that the costs are so low, I would say it is worth doing it.
+
+        It is hard to say how will this project affect the environment, since it doesn't have to much to do with it. Machine learning is a hard subject, and it requires a lot of energy consumption in order to get good results. Maybe with the techniques detailed in this project I can do my bit to increase the accuracy of the predictions without increasing the power consumption.

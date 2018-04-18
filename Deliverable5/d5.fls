@@ -117,10 +117,10 @@ INPUT /home/hobber/git/GEP/Deliverable5/d5.out
 INPUT /home/hobber/git/GEP/Deliverable5/d5.out
 INPUT /home/hobber/git/GEP/Deliverable5/d5.out
 INPUT /home/hobber/git/GEP/Deliverable5/d5.out
-OUTPUT /home/hobber/git/GEP/Deliverable5/d5.pdf
 INPUT /home/hobber/git/GEP/Deliverable5/d5.out
 INPUT /home/hobber/git/GEP/Deliverable5/d5.out
 OUTPUT /home/hobber/git/GEP/Deliverable5/d5.out
+OUTPUT /home/hobber/git/GEP/Deliverable5/d5.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -133,12 +133,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /home/hobber/git/GEP/Deliverable5/d5.toc
-INPUT /home/hobber/git/GEP/Deliverable5/d5.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-OUTPUT /home/hobber/git/GEP/Deliverable5/d5.toc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /home/hobber/git/GEP/Deliverable5/d5.aux
@@ -147,8 +143,8 @@ INPUT /home/hobber/git/GEP/Deliverable5/d5.out
 INPUT /home/hobber/git/GEP/Deliverable5/d5.run.xml
 OUTPUT /home/hobber/git/GEP/Deliverable5/d5.run.xml
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb

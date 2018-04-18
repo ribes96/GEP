@@ -1,5 +1,5 @@
 [0] Config.pm:354> INFO - This is Biber 2.7 (beta)
-[1] Config.pm:357> INFO - Logfile is 'd5.blg'
-[62] biber:303> INFO - === mar abr 10, 2018, 00:16:45
-[88] Biber.pm:360> INFO - Reading 'd5.bcf'
-[243] Utils.pm:164> WARN - No data sources defined!
+[0] Config.pm:357> INFO - Logfile is 'd5.blg'
+[33] biber:303> INFO - === jue abr 12, 2018, 11:15:13
+[189] Biber.pm:360> INFO - Reading 'd5.bcf'
+[270] Utils.pm:164> WARN - No data sources defined!
